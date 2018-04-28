@@ -22,6 +22,7 @@ public class TestController {
 
     @RequestMapping("login")
     public void test(HttpServletRequest request) throws IOException, InterruptedException {
+        //测试
         HttpSession session = request.getSession();
         UserBean userBean = new UserBean();
         userBean.setName("张三");

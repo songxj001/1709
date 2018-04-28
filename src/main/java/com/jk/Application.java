@@ -11,6 +11,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 public class Application {
 
 	public static void main(String[] args) {
+		//测试2
 		SpringApplication.run(Application.class, args);
 	}
 
